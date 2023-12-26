@@ -140,12 +140,14 @@ body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
     color: #333;
+    /* background-image: url(pattern.webp); */
 }
 
 .container {
     width: 800px;
     margin: auto;
     background-color: #fff;
+    border: 3px solid blueviolet;
 }
 
 .header {
@@ -211,6 +213,10 @@ body {
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.content hr {
+    margin-top: -17px;
 }
 
 .footer {
